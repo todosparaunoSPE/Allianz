@@ -201,7 +201,7 @@ with st.form("simulador_form"):
         st.markdown(f"""
         <div style="background-color:#f0f2f6;padding:20px;border-radius:10px;margin-top:20px">
               <h3 style="color:#1e3a8a;">Resultado de la simulación</h3>
-              <p style="font-size:16px;">Probabilidad estimada de siniestro: <strong>{proba*100:.1f}%</strong></p>
+              <p style="font-size:16px;color:#555555;">Probabilidad estimada de siniestro: <strong>{proba*100:.1f}%</strong></p>
               <p style="font-size:14px;color:#555555;">Basado en el perfil ingresado y el modelo predictivo</p>
         </div>
         """, unsafe_allow_html=True)
