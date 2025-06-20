@@ -200,9 +200,9 @@ with st.form("simulador_form"):
         # Mostrar resultados
         st.markdown(f"""
         <div style="background-color:#f0f2f6;padding:20px;border-radius:10px;margin-top:20px">
-            <h3 style="color:#1e3a8a;">Resultado de la simulación</h3>
-            <p style="font-size:16px;">Probabilidad estimada de siniestro: <strong>{proba*100:.1f}%</strong></p>
-            <p style="font-size:14px;color:#555555;">Basado en el perfil ingresado y el modelo predictivo</p>
+              <h3 style="color:#1e3a8a;">Resultado de la simulación</h3>
+              <p style="font-size:16px;">Probabilidad estimada de siniestro: <strong>{proba*100:.1f}%</strong></p>
+              <p style="font-size:14px;color:#555555;">Basado en el perfil ingresado y el modelo predictivo</p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -211,10 +211,10 @@ with st.form("simulador_form"):
 # =============================================
 st.markdown("---")
 st.markdown("""
-<div style="background-color:#f0f2f6;padding:20px;border-radius:10px;margin-top:30px">
-    <p style="text-align:center;font-size:14px;">
-        Solución desarrollada por <strong>Javier Horacio Pérez Ricárdez</strong> para el proceso de selección como <strong>Actuario Senior</strong><br>
-        Todos los derechos reservados • {year}
+<div style="background-color:#f0f2f6;padding:20px;border-radius:10px;margin-top:30px;border:1px solid #1e3a8a">
+    <p style="text-align:center;font-size:14px;color:#333333;">
+        Solución desarrollada por <strong style="color:#1e3a8a;">Javier Horacio Pérez Ricárdez</strong> para el proceso de selección como <strong style="color:#1e3a8a;">Actuario Senior</strong><br>
+        Todos los derechos reservados • 2025
     </p>
 </div>
-""".format(year=pd.Timestamp.now().year), unsafe_allow_html=True)
+""", unsafe_allow_html=True)
