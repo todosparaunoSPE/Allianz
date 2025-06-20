@@ -1,16 +1,1 @@
-[theme]
-# Primary accent color for interactive elements.
-primaryColor = "#74BEE0"
-
-# Background color for the main content area.
-backgroundColor = "#0B0B0C"
-
-# Background color used for the sidebar and most interactive widgets.
-secondaryBackgroundColor = "37207D"
-
-# Color used for almost all text.
-textColor = "#FFF"
-
-# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
-# Default: "sans serif"
-font = "sans serif"
+web: streamlit run --server.enableCORS false --server.port $PORT app2.py
